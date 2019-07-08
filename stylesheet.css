@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.author-box {
+    padding-top: 20px;
+}
+
+/*select any images within author-box */
+.author-box img
+{
+    border-radius: 50%;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.author-text
+{
+    float: left;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.container {
+    margin: 20px auto 0 auto;
+    width: 1140px;
+}
+
+.blog-post {
+    float: left;
+    padding-right: 30px;
+    width:75%;
+}
+
+.main-text
+{
+    margin-bottom: 20px;
+    border: 1px solid;
+    text-align: justify;
+}
+
+.other-posts {
+    float: left;
+    width: 25%;
+}
