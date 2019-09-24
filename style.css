@@ -14,7 +14,7 @@
 /*30% */
 #main-header .port-item
 {
-    width: 25%;
+    width: 45%;
 }
 
 #main-header .port-item:hover
@@ -27,6 +27,6 @@
 {
     .port-item
     {
-        padding: 3em !important;
+        padding: 2em !important;
     }
 }
