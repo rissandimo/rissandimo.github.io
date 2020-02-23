@@ -8,6 +8,10 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
   <title>Omid Nassir - Projects</title>
 </head>
@@ -24,12 +28,17 @@
          <!-- collapse - hide initially -->
          <div id="navbarCollapse" class="collapse navbar-collapse">
            <ul class="navbar-nav ml-auto">
+
              <li class="nav-item">
                <a href="index.html" class="nav-link">Home</a>
              </li>
 
              <li class="nav-item active">
                <a href="projects.html" class="nav-link">Projects</a>
+             </li>
+
+             <li class="nav-item">
+               <a href="contact.html" class="nav-link">Contact</a>
              </li>
            </ul>
          </div>
@@ -51,30 +60,54 @@
                                                     <!-- Spring Boot Pictures-->
 
           <div class="row py-3">
-            <div class="col mb-4 mx-auto">
-              <p class="text-center">Spring Boot Bank Web Application</p> 
-              <a href="https://github.com/rissandimo/Spring-Boot-Bank-Application" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width = "560">
+            <div class="col-10 mb-4 mx-auto">
+              <h3 class="text-center">Bank Web Application</h3>
+              <p class="text-center">Spring Boot/Spring Data/Spring Security/Hibernate/MySQL</p>
+              <p class="text-center">This is website I created using Spring Boot. I leveraged Hibernate to perform the various crud operations utizing JPA/Hibernate. All the info gets saved to MySQL on the localhost. I utilized Spring Security to handle the login validation. The UI was design using Thymeleaf and Bootstrap. The web application simulates an online banking system. It allows the user to create an account. It allows to register/login deposit/withdraw/make purchase and view transactions. </p> 
+
+                <div class="mx-auto">
                 <img src="img/projects/SpringBankWebApp.png" height="500" width="500" class="img-fluid">
-              </a>
+                  
+                </div> 
+             
+              <div class="mt-3">
+                <i class="fas fa-github"></i><a href="https://github.com/rissandimo/Spring-Boot-Bank-Application">View Github</a>
+              </div>
+              
             </div>
           </div>
 
           <div class="row py-3">
 
-            <div class="col-sm-6 col-md-4">
-                <p class="text-center">JavaFx Bank Application</p>
-                <a href="https://github.com/rissandimo/JavaFX-Bank-Application" data-toggle="lightbox"
-                data-gallery="img-gallery" data-height="560" data-width="560">
-                  <img src="img/projects/JavaFx-Bank.png" class="img-fluid">
-                </a>
+            <div class="col-10 col-md-6">
+                <h3 class="text-center">JavaFx Bank Application</h3>
+
+                <p class="text-center">JavaFX/JFoenix </p>
+
+                <p class="text-center">This is a JavaFx Bank application. It allows to register, make transactions, and delete transactions. I used the JFeonex library to get a rich and modern look.</p>
+
+
+                <img src="img/projects/JavaFx-Bank.png" class="img-fluid" style="height: 360px; width: 450px;">
+                
+                <div class="mt-3">
+                   <a href="https://github.com/rissandimo/JavaFX-Bank-Application">View Github</a>
+                </div>
+               
             </div>
 
-            <div class="col-sm-6 col-md-4">
-                <p class="text-center">JavaFx Todo-List Application</p>
-                <a href="https://github.com/rissandimo/JavaFX-Todo-List" data-toggle="lightbox"
-                data-gallery="img-gallery" data-height="561" data-width="561">
-                  <img src="img/projects/JavaFx-TodoList.png" class="img-fluid">
-                </a>
+            <div class="col-10 col-md-6">
+                <h3 class="text-center">JavaFx Todo-List Application</h3>
+
+                <p class="text-center">JavaFX</p>
+
+                <p class="text-center">This is a JavaFx Todo-List application. It allows to create/edit/delete tasks. I used the font awesome library to get a rich and modern look.</p>
+                
+                <img src="img/projects/JavaFx-TodoList.png" class="img-fluid" style="height: 360px; width: 450px;">
+                
+                <div class="mt-3">
+                   <a href="https://github.com/rissandimo/JavaFX-Todo-List">View Github</a>
+                </div>
+                
             </div>
 
           </div>
@@ -82,24 +115,7 @@
           </div> <!-- End of row -->
           </div>
           </section>
-
-
-
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-    
-
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-
-
-    //slick
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
+  
     
   </script>
 </body>

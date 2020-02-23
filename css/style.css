@@ -102,3 +102,22 @@ body
 {
 	color: white;
 }
+
+.about-img{
+	/*border: 2px solid #808080;*/
+}
+
+.content{
+	margin-top: 5em;
+}
+
+.name-section{
+	font-family: 'Roboto', sans-serif;
+	font-size: 4.5em;
+}
+
+.about-me-section{
+	margin-top: 1.2em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+}
