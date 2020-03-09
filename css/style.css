@@ -121,3 +121,9 @@ body
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.2em;
 }
+
+.spring-project
+{
+	margin-top: 10px;
+	width: 50%;
+}
