@@ -69,30 +69,31 @@
               <div class="card-body">
                 <h3 class="text-center">Please fill out this form to contact me</h3>
                 <hr>
+                <form action="mail.php" method="post">
                 <div class="row">
                     <!-- Row 1 -->
                    <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" name="" class="form-control" placeholder="First Name">
+                        <input type="text" name="firstName" class="form-control" placeholder="First Name">
                       </div>
                    </div>
 
                    <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" name="" class="form-control" placeholder="Last Name">
+                        <input type="text" name="lastName" class="form-control" placeholder="Last Name">
                       </div>
                    </div>
                    
                    <!-- Row 2 --> 
                    <div class="col-md-6">
                       <div class="form-group">
-                         <input type="text" name="" class="form-control" placeholder="Email">
+                         <input type="text" name="email" class="form-control" placeholder="Email">
                       </div>
                    </div>  
                    
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" name="" class="form-control" placeholder="Phone Number">
+                        <input type="text" name="phoneNumber" class="form-control" placeholder="Phone Number">
                       </div>
                     </div>
                   </div> <!-- end of row - input fields-->
@@ -101,7 +102,7 @@
 
                     <div class="col-md-12">
                       <div class="form-group">
-                         <textarea class="form-control" placeholder="Message"></textarea>
+                         <textarea class="form-control" placeholder="Message" name="message"></textarea>
                       </div>
                     </div>
 
@@ -111,6 +112,8 @@
                       </div>
                     </div>
                   </div>
+
+              </form>
                 </div>
               </div> <!-- end of right column -->
             </div>
