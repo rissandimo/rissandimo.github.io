@@ -10,6 +10,13 @@ a{
 	text-decoration: none;
 }
 
+.heading{
+	font-size: 2rem;
+	font-weight: 200;
+	margin: 1rem 0 0.5rem 0;
+	text-align: center;
+}
+
 /* ----------------------------------------- */
 
 .about{
@@ -94,13 +101,22 @@ a{
 	text-decoration: none;
 }
 
+.navbar > ul > li > a:hover{
+	border-bottom: 2px solid #296CA8;
+	padding-bottom: 10px;
+}
+
 .navbar > ul > li > a:visited{
 	color: white;
 }
 
+/* Projects */
+
 .projects{
+	background-color: #171C28;
+	color: white;
 	display: flex;
-	width: 1000px;
+	height: 92vh;
 }
 
 .project > .project__description{
@@ -113,19 +129,23 @@ a{
 }
 
 .project > .project__description > .project__image{
-	border: 1px solid lightgray;
+	border: 1px solid #0952A6;
 	border-radius: 10px;
 	padding: 10px;
 }
 
 .project__description--stacks > .project__stack{
-	border: 1px solid lightgray;
-	margin-right: 10px;
+	border: 1px solid #007bff;
+	border-radius: 3px;
+	color: #007bff;
+	font-size: 1.2rem;
+	margin-right: 3px;
 	padding: 5px;
 }
 
 .project > .project__link{
 	background-color: grey;
+	border: 1px solid;
 	border-radius: 5px;
 	margin: 10px auto;
 	padding: 10px;
@@ -144,11 +164,35 @@ a{
 	text-align: center;
 }
 
+.project__title > h2{
+	font-weight: 700;
+}
+
 .project__type{
 	margin: 20px 0;
 	text-align: center;
 }
 
+/* Resume */
+.resume{
+	background-color: #296CA8;
+	padding: 3rem;
+}
+
+.resume > .resume__link{
+	display: flex;
+	margin-top: 2rem;
+	justify-content: center;
+}
+
+.resume > .resume__link > a{
+	background-color: #dedede;
+	color: black;
+	font-size: 1.4rem;
+	padding: 1.5rem;
+}
+
+/* Technology */
 
 .technology__experience{
 	background-color: #dedede;
@@ -165,12 +209,6 @@ a{
 	display: flex;
 	margin-top: 3rem;
 	justify-content: space-around;
-}
-
-.technology__experience > h1{
-	font-size: 2rem;
-	margin: 1rem 0 0.5rem 0;
-	text-align: center;
 }
 
 .technology__experience .tech__icon{
