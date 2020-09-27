@@ -5,73 +5,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <title>Omid Nassir - Home</title>
 </head>
 
 <body>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">Omid Nassir</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- collapse - hide initially -->
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
+  <div class="navbar">
+    <div class="navbar__logo">
+      <h2>
+        Omid Nassir
+      </h2>
+    </div>
+    <ul class="navbar__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </div>
 
-          <li class="nav-item">
-            <a href="projects.html" class="nav-link">Projects</a>
-          </li>
+<!-- About -->
+  <div class="about">
+    <h1 class="heading">About Me</h1>
+    <div class="about__pic">
+      <img src="img/profile_smaller2.JPG">
+    </div>
 
-         <li class="nav-item">
-           <a href="contact.html" class="nav-link">Contact</a>
-         </li>
+    <p>My name is Omid Nassir and I am a full stack web developer with experience working with the latest web technologies. I am always striving to learn new technologies 
+      and to become a better developer. You can take a look at the applications I have made on my <a href="https://www.github.com/rissandimo" target="_blank" class="about__githubLink">Github</a>.
+    </p>
+      <br>
 
-        </ul>
+    <p>When I'm not coding, I enjoy reading, listening to music, meditating and skateboarding.</p>
+
+  </div>
+
+  <!-- Skills -->
+  <div class="technology__experience">
+    <h1 class="heading">Skills</h1>
+
+    <!-- <h3>Development</h3> -->
+    <!-- JS/HTML5, CSS3, React, Node.js -->
+    <div class="technology__container">
+      <div class="technology__row">
+        <i class="fab fa-html5 tech__icon"></i>
+        <i class="fab fa-css3 tech__icon"></i>
+        <i class="fab fa-js tech__icon"></i>
+        <i class="fab fa-react tech__icon"></i>
+      </div>
+      <!-- <h3>Tools</h3> -->
+      <!-- Git/Github, Commandline, Chrome Dev tools, Postman -->
+      <div class="technology__row">
+        <i class="fab fa-github tech__icon"></i>
+        <i class="fab fa-sass tech__icon"></i>
+        <i class="fab fa-bootstrap tech__icon"></i>
+        <i class="fab fa-java tech__icon"></i>
+      </div>
+      <!-- <h3>Knowledge</h3> -->
+      <!-- Seo -->
+      <div class="technology__row">
+        <i class="fab fa-node tech__icon"></i>
+        <i class="fas fa-database tech__icon"></i>
       </div>
     </div>
-  </nav>
+  </div>
 
-  <div class="container">
-    <section>
-      <div class="row content">
-        <div class="col-md-4">
-          <img src="img/profile_smaller2.JPG" style="width: 350px; height: 350px;"
-            class="img img-fluid rounded-circle d-none d-md-block about-img">
-        </div>
-        <div class="col">
-          <div class="col-md-10 name-section">
-             Omid Nassir
-          </div>
-          <div class="col-md-6 col-lg-10">
-            <div> Fullstack Java Developer </div>
-            <div> Associates of Science, Computer Programming</div>
-            <div> Los Angeles, CA</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-10 about-me-section">
-        <p>My name is Omid and I self-motivated and passionate back-end Java developer. I have been writing Java
-          applications for a few years now and more recently leveraging the Spring Framework. While my primary expertise
-          and focus is on developing web application using Java I also have some experience with front-end development.</p>
-      </div>
-      <div class="button-wrap">
-        <a class="btn btn-secondary" href="https://github.com/rissandimo" target="_blank" style="color: #fff;">Github</a>
-        <button class="btn btn-primary">Download CV</button>
-      </div>
-    </section>
+  <!-- Resume -->
+  <div class="resume">
+    <h1 class="heading">Check out my resume</h1>
+    <div class="resume__link">
+      <a href="">Download a pdf</a>
+    </div>
   </div>
 
 </body>

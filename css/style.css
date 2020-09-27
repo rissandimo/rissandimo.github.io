@@ -1,129 +1,217 @@
-.app-heading
-{
-	display: block;
+/* Global Styles */
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-/*hide horizontal scrollbar on bottom of page*/
-body
-{
-	overflow-x: hidden;
+a{
+	text-decoration: none;
 }
 
-.carousel-item
-{
-	height: 450px;
-}
-
-.carousel-image-1
-{
-	background: url('../img/image1.jpg');
-	background-size: cover;
-}
-
-.carousel-image-2
-{
-	background: url('../img/image2.jpg');
-	background-size: cover;
-}
-
-.carousel-image-3
-{
-	background: url('../img/image3.jpg');
-	background-size: cover;
-}
-
-.card-body
-{
-	color: black;
-}
-
-#home-heading {
-  position: relative;
-  min-height: 200px;
-  background: url('../img/lights.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  text-align: center;
-  color: #fff;
-}
-
-/*Inside home heading */
-.dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-#main-footer
-{
-	background: #000;
-	color: #fff;
-}
-.navbar .nav-link
-{
-	font-size: 14px;
-	padding-left: 1rem !important;
-	padding-right: 1rem !important;
-	text-transform: uppercase;
-}
-
-.navbar .nav-item.active
-{
-	border-left: #444 3px solid;
-}
-
-#page-header
-{
-	 background-attachment: fixed;	/* doesn't do anything */
-	background: url('../img/image1.jpg');
-	background-position: 0 -360px;
-	border-bottom: 1px #eee solid;
-	color: #fff;
-	height: 200px;
-	padding-top: 50px;
-}
-
-#video-play
-{
-	background: url('../img/media.jpg');
-	background-attachment: fixed;
-	background-position: 0 -300px;
-	background-repeat: no-repeat;
-	color: white;
-	min-height: 200px;
-	position: relative;
+.heading{
+	font-size: 2rem;
+	font-weight: 200;
+	margin: 1rem 0 0.5rem 0;
 	text-align: center;
 }
 
-#video-play a
-{
+/* ----------------------------------------- */
+
+.about{
+	background-color: white;
+	margin: 0 auto;
+	width: 900px;
+}
+
+.about a:visited{
+	color: black;
+}
+
+.about__githubLink{
+	text-decoration: underline;
+}
+
+.about > h1{
+	font-weight: 100;
+	margin: 40px 0;
+	text-align: center;
+}
+
+.about > p{
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	text-align: center;
+}
+
+.about > .about__pic{
+	margin: 20px auto;
+	width: 250px;
+}
+
+.about > .about__pic > img{
+	border-radius: 50%;
+	width: 100%;
+}
+
+.button__github{
+	background-color: gray;
+	border: none;
+	margin: 10px 0;
+	padding: 5px 40px;
+	text-align: center;
+}
+
+.navbar{
+	align-items: center;
+	background-color: black;
+	color: white;
+	display: flex;
+	padding: 20px;
+}
+
+.hero{
+	background-image: url('/img/dan-VYXhQRPyHB0-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+.navbar__links{
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	width: 300px;
+}
+
+.navbar > .navbar__logo > h2{
+	font-weight: 300;
+}
+
+.navbar > ul > li{
+	list-style: none;
+	font-size: 1.2rem;
+	margin-left: 20px;
+}
+
+.navbar > ul > li > a{
+	text-decoration: none;
+}
+
+.navbar > ul > li > a:hover{
+	border-bottom: 2px solid #296CA8;
+	padding-bottom: 10px;
+}
+
+.navbar > ul > li > a:visited{
 	color: white;
 }
 
-.about-img{
-	/*border: 2px solid #808080;*/
+/* Projects */
+
+.projects{
+	background-color: #171C28;
+	color: white;
+	display: flex;
+	height: 92vh;
 }
 
-.content{
-	margin-top: 5em;
+.project > .project__description{
+	display: flex;
+	flex-direction: column;
 }
 
-.name-section{
-	font-family: 'Roboto', sans-serif;
-	font-size: 4.5em;
+.project > .project__description > *{
+	margin: 10px;
 }
 
-.about-me-section{
-	margin-top: 1.2em;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
+.project > .project__description > .project__image{
+	border: 1px solid #0952A6;
+	border-radius: 10px;
+	padding: 10px;
 }
 
-.spring-project
-{
-	margin-top: 10px;
-	width: 50%;
+.project__description--stacks > .project__stack{
+	border: 1px solid #007bff;
+	border-radius: 3px;
+	color: #007bff;
+	font-size: 1.2rem;
+	margin-right: 3px;
+	padding: 5px;
+}
+
+.project > .project__link{
+	background-color: grey;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 10px auto;
+	padding: 10px;
+	text-align: center;
+	width: 80%;
+}
+
+.projects > .project__type{
+	border: 1px solid;
+	display: block;
+	margin: 20px 0;
+}
+
+.project__title{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.project__title > h2{
+	font-weight: 700;
+}
+
+.project__type{
+	margin: 20px 0;
+	text-align: center;
+}
+
+/* Resume */
+.resume{
+	background-color: #296CA8;
+	padding: 3rem;
+}
+
+.resume > .resume__link{
+	display: flex;
+	margin-top: 2rem;
+	justify-content: center;
+}
+
+.resume > .resume__link > a{
+	background-color: #dedede;
+	color: black;
+	font-size: 1.4rem;
+	padding: 1.5rem;
+}
+
+/* Technology */
+
+.technology__experience{
+	background-color: #dedede;
+	margin-top: 4rem;
+	padding: 1.9rem;
+}
+
+.technology__experience > .technology__container{
+	margin: 3rem auto;
+	max-width: 900px;
+}
+
+.technology__container > .technology__row{
+	display: flex;
+	margin-top: 3rem;
+	justify-content: space-around;
+}
+
+.technology__experience .tech__icon{
+	color: #296ca8;
+	font-size: 5rem;
 }

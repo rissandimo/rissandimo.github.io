@@ -5,121 +5,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta http-equiv="refresh" content="0" url="http://rissandimo.github.io/setareh/setareh-collection/work.html" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-
-  <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
-  
-  <link href= "css/style.css" rel="stylesheet">
-  <link href= "css/webfonts" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <title>Omid Nassir - Projects</title>
 </head>
 
 <body>
 
-                                      <!-- navbar -->
-     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-       <div class="container">
-         <a href="index.html" class="navbar-brand">Omid Nassir</a>
-         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <!-- collapse - hide initially -->
-         <div id="navbarCollapse" class="collapse navbar-collapse">
-           <ul class="navbar-nav ml-auto">
+  <!-- Portfolio site designed and coded from scratch to showcase my skills -->
 
-             <li class="nav-item">
-               <a href="index.html" class="nav-link">Home</a>
-             </li>
+  <!-- navbar -->
+  <div class="navbar">
+    <div class="navbar__logo">
+      <h2>
+        Omid Nassir
+      </h2>
+    </div>
+    <ul class="navbar__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </div>
 
-             <li class="nav-item active">
-               <a href="projects.html" class="nav-link">Projects</a>
-             </li>
+  <!-- Projects -->
+  <div class="projects">
+    <div class="project">
+        <div class="project__title">
+            <h2>Facebook Clone</h2>
+        </div>
+        <div class="project__description">
+          <div class="project__image">
+              <img src="img/projects/facebook-clone_sm.jpg" alt="">
+          </div>
+          <h3>Stacks Used:</h3>
+          <div class="project__description--stacks">
+            <span class="project__stack">NodeJS</span>
+            <span class="project__stack">ReactJS</span>
+            <span class="project__stack">MongoDB</span>
+          </div>
+        </div>
+        <div class="project__link">
+            <a href="#">Visit Site</a><br>
+            <a href="#">View Source
+              <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
 
-             <li class="nav-item">
-               <a href="contact.html" class="nav-link">Contact</a>
-             </li>
-           </ul>
-         </div>
-       </div>
-     </nav>    
-
-
-                                                <!-- Photo Gallery-->
-        <section id="projects" class="py-5">
-          <div class="container">
-       
-          <div class="row">
-            <div class="col">
-              <h1 class="text-center">Projects</h1>
+      <div class="project">
+          <div class="project__title">
+              <h2>Amazon Clone</h2>
+          </div>
+          <div class="project__description">
+            <div class="project__image">
+                <img src="img/projects/amazon-clone_sm.jpg" alt="">
+            </div>
+            <h3>Stacks Used:</h3>
+            <div class="project__description--stacks">
+              <span class="project__stack">NodeJS</span>
+              <span class="project__stack">ReactJS</span>
+              <span class="project__stack">MongoDB</span>
             </div>
           </div>
-          
-
-                                                    <!-- Spring Boot Pictures-->
-
-          <div class="row py-3">
-            <div class="col-10 mb-4 mx-auto">
-              <h3 class="text-center">Bank Web Application</h3>
-              <p class="text-center">Spring Boot/Spring Data/Spring Security/Hibernate/MySQL</p>
-              <p class="text-center">This is website I created using Spring Boot. I leveraged Hibernate to perform the various crud operations utizing JPA/Hibernate. All the info gets saved to MySQL on the localhost. I utilized Spring Security to handle the login validation. The UI was design using Thymeleaf and Bootstrap. The web application simulates an online banking system. It allows the user to create an account. It allows to register/login deposit/withdraw/make purchase and view transactions. </p> 
-
-                <div class="mx-auto spring-project">
-                  <i class="fab fa-github"></i>
-                  <img src="img/projects/SpringBankWebApp.png" height="500" width="500" class="img-fluid">
-                </div> 
-             
-              <div class="mt-3">
-                <i class="fas fa-github"></i><a href="https://github.com/rissandimo/Spring-Boot-Bank-Application">View Github</a>
-              </div>
-              
-            </div>
+          <div class="project__link">
+              <a href="#">View on Github</a>
           </div>
-
-          <div class="row py-3">
-
-            <div class="col-10 col-md-6">
-                <h3 class="text-center">JavaFx Bank Application</h3>
-
-                <p class="text-center">JavaFX/JFoenix </p>
-
-                <p class="text-center">This is a JavaFx Bank application. It allows to register, make transactions, and delete transactions. I used the JFeonex library to get a rich and modern look.</p>
-
-
-                <img src="img/projects/JavaFx-Bank.png" class="img-fluid" style="height: 360px; width: 450px;">
-                
-                <div class="mt-3">
-                   <a href="https://github.com/rissandimo/JavaFX-Bank-Application">View Github</a>
-                </div>
-               
-            </div>
-
-            <div class="col-10 col-md-6">
-                <h3 class="text-center">JavaFx Todo-List Application</h3>
-
-                <p class="text-center">JavaFX</p>
-
-                <p class="text-center">This is a JavaFx Todo-List application. It allows to create/edit/delete tasks. I used the font awesome library to get a rich and modern look.</p>
-                
-                <img src="img/projects/JavaFx-TodoList.png" class="img-fluid" style="height: 360px; width: 450px;">
-                
-                <div class="mt-3">
-                   <a href="https://github.com/rissandimo/JavaFX-Todo-List">View Github</a>
-                </div>
-                
-            </div>
-
-            <a href="setareh-collection/index.html">Setareh</a>
-
-          </div>
-
-          </div> <!-- End of row -->
-          </div>
-          </section>
+      </div>
   
     
-  </script>
 </body>
 
 </html>
