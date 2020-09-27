@@ -10,16 +10,16 @@ a{
 	text-decoration: none;
 }
 
-a:visited{
-	color: white;
-}
-
 /* ----------------------------------------- */
 
 .about{
 	background-color: white;
 	margin: 0 auto;
-	width: 1100px;
+	width: 900px;
+}
+
+.about a:visited{
+	color: black;
 }
 
 .about__githubLink{
@@ -33,8 +33,8 @@ a:visited{
 }
 
 .about > p{
-	font-size: 1.2rem;
-	line-height: 1.2rem;
+	font-size: 1.3rem;
+	line-height: 1.8rem;
 	text-align: center;
 }
 
@@ -94,6 +94,10 @@ a:visited{
 	text-decoration: none;
 }
 
+.navbar > ul > li > a:visited{
+	color: white;
+}
+
 .projects{
 	display: flex;
 	width: 1000px;
@@ -143,4 +147,33 @@ a:visited{
 .project__type{
 	margin: 20px 0;
 	text-align: center;
+}
+
+
+.technology__experience{
+	background-color: #dedede;
+	margin-top: 4rem;
+	padding: 1.9rem;
+}
+
+.technology__experience > .technology__container{
+	margin: 3rem auto;
+	max-width: 900px;
+}
+
+.technology__container > .technology__row{
+	display: flex;
+	margin-top: 3rem;
+	justify-content: space-around;
+}
+
+.technology__experience > h1{
+	font-size: 2rem;
+	margin: 1rem 0 0.5rem 0;
+	text-align: center;
+}
+
+.technology__experience .tech__icon{
+	color: #296ca8;
+	font-size: 5rem;
 }
