@@ -113,26 +113,38 @@ a{
 /* Projects */
 
 .projects{
-	background-color: #171C28;
+	background-color: #DEDEDE;
+	border: 1px solid green;
 	color: white;
+	margin: 0 auto;
 	display: flex;
-	height: 92vh;
+	justify-content: space-around;
+	width: 1600px;
+}
+
+.project{
+	width: 450px;
 }
 
 .project > .project__description{
 	display: flex;
 	flex-direction: column;
-}
-
-.project > .project__description > *{
-	margin: 10px;
-}
-
-.project > .project__description > .project__image{
-	border: 1px solid #0952A6;
-	border-radius: 10px;
+	margin-top: 10px;
 	padding: 10px;
+	height: 100px;
 }
+
+.project > .project__image{
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 420px;
+}
+
+.project > .project__image > img{
+	width: 100%;
+}
+
 
 .project__description--stacks > .project__stack{
 	border: 1px solid #007bff;
