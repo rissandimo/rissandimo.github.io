@@ -95,6 +95,10 @@ body{
 	padding: 20px;
 }
 
+.navbar .navbar__logo > h2 > a{
+	color: white;
+}
+
 .navbar__links{
 	height: 40px;
 	display: flex;
@@ -110,7 +114,6 @@ body{
 
 .navbar > ul > li{
 	list-style: none;
-	/* font-size: 1.2rem; */
 	margin-left: 20px;
 }
 
