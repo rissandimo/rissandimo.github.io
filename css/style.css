@@ -144,6 +144,15 @@ body{
 	width: 1300px;
 }
 
+.project-section > .section-title{
+	border-bottom: 1px solid lightgray;
+	font-weight: 400;
+	margin: 40px auto;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 50%;
+}
+
 
 .project{
 	background-color: #DEDEDE;
