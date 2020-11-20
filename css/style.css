@@ -295,18 +295,26 @@ body{
 	
 }
 
-/* .projects{
-	border-radius: 10px;
-	color: black;
-	margin: 25px auto 0 auto;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	width: 1600px;
-} */
 
 /* Regular */
-@media(max-width: 1530px){
+@media(max-width: 1300px){
 	.projects{
 		grid-template-columns: repeat(2, 1fr);
+		width: 850px;
 	}	
+
+	.project{
+		margin: 15px auto;
+	}
+}
+
+/* Small Screen */
+@media(max-width: 870px){
+	.projects{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 550px;
+	}
 }
