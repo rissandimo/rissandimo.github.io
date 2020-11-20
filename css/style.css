@@ -86,19 +86,13 @@ body{
 	padding: 20px;
 }
 
+														/* Navigation */
 .navbar{
 	align-items: center;
 	background-color: black;
 	color: white;
 	display: flex;
 	padding: 20px;
-}
-
-.hero{
-	background-image: url('/img/dan-VYXhQRPyHB0-unsplash.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 300px;
 }
 
 .navbar__links{
@@ -116,7 +110,7 @@ body{
 
 .navbar > ul > li{
 	list-style: none;
-	font-size: 1.2rem;
+	/* font-size: 1.2rem; */
 	margin-left: 20px;
 }
 
