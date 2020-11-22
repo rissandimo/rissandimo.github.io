@@ -102,7 +102,7 @@ body{
 	  background-color: #F5F6F7;
 	  display: flex;
 	  flex-direction: column;
-	  /* padding: 20px; */
+	  padding: 20px 20px 5px 20px;
 	  height: 500px;
 	  width: 400px;
 
@@ -131,6 +131,11 @@ body{
 	  margin-top: 10px;
   }
 
+  .form-wrap > .contact-form > .form-group.text-area {
+	height: 150px;
+  }
+
+
   .form-wrap .form-group label {
 	display: block;
 	color: #666;
@@ -142,6 +147,11 @@ body{
 	  padding: 10px;
 	  width: 100%;        
   }
+
+  .form-wrap .form-group textarea {
+	  outline: 0;
+  }
+
 
   .form-wrap button {
 	background-color: #49c1a2;
