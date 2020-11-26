@@ -222,8 +222,8 @@ body{
 	margin: 25px auto 0 auto;
 	grid-gap: 3rem;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	width: 1300px;
+	grid-template-columns: repeat(4, 1fr);
+	width: 90%;
 }
 
 .project-section > .section-title{
@@ -252,13 +252,13 @@ body{
 	align-items: center;
 	margin: 5px 0;
 	padding: 14px;
-	height: 120px;
+	height: 70px;
 }
 
 .project > .project__image{
 	border-radius: 10px;
 	margin: 2px auto;
-	height: 180px;
+	height: 200px;
 	width: 350px;
 }
 
@@ -272,7 +272,7 @@ body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	height: 100px;
+	height: 50px;
 }
 
 .project .project__stack{
@@ -287,8 +287,9 @@ body{
 	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
+	height: 80px;
 	justify-content: space-around;
-	margin: 0 auto;
+	margin: 10px auto 5px auto;
 	padding: 5px;
 	text-align: center;
 	width: 80%;
@@ -388,10 +389,10 @@ body{
 
 
 /* Regular */
-@media(max-width: 1300px){
+@media(max-width: 1775px){
 	.projects{
-		grid-template-columns: repeat(2, 1fr);
-		width: 850px;
+		grid-template-columns: repeat(3, 1fr);
+		width: 70%;
 	}	
 
 	.project{
@@ -400,14 +401,11 @@ body{
 }
 
 /* Small Screen */
-@media(max-width: 870px){
+@media(max-width: 1485px){
 	.projects{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 550px;
-	}
+		grid-template-columns: repeat(2, 1fr);
+		width: 70%;
+	}	
 
 	.contact{
 		display: grid;
@@ -428,7 +426,12 @@ body{
 
 
 /* Extra Small Screen */
-@media(max-width: 500px){
+@media(max-width: 1125px){
+
+	.projects{
+		grid-template-columns: 1fr;
+		width: 90%;
+	}	
 	.contact{
 		align-items: center;
 		display: flex;
