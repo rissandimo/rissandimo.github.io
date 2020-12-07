@@ -172,11 +172,14 @@ body{
 														/* Navigation */
 .navbar{
 	align-items: center;
-	background-color: black;
+	/* background: black; */
 	color: white;
 	display: flex;
 	padding: 20px;
 }
+
+.navbar.navbar-colored { background-color: blue; }
+.navbar.navbar-transparent { background-color: black}
 
 .navbar .navbar__logo > h2 > a{
 	color: white;
@@ -377,7 +380,7 @@ body{
    @-moz-document url-prefix(){
 
     body{
-        font-size: 1rem;
+        font-size: 1.2rem;
 	}
 
 	.project > .project__links{
