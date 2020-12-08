@@ -172,13 +172,17 @@ body{
 														/* Navigation */
 .navbar{
 	align-items: center;
-	/* background: black; */
+	background: black;
 	color: white;
 	display: flex;
 	padding: 20px;
+	position: sticky;
+	top: 0;
+
+	transition: all 0.7s ease-out;
 }
 
-.navbar.navbar-colored { background-color: blue; }
+.navbar.navbar-colored { background-color: #296ca8; }
 .navbar.navbar-transparent { background-color: black}
 
 .navbar .navbar__logo > h2 > a{
