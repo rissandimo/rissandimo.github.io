@@ -10,12 +10,8 @@ a{
 	text-decoration: none;
 }
 
-html{
-    font-size: 62.5%;
-}
-
 body{
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 .heading{
@@ -245,9 +241,13 @@ body{
 
 .project{
 	background-color: #DEDEDE;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	border-radius: 10px;
 	width: 390px;
-
+	min-height: 300px;
+	height: 630px;
 	-webkit-box-shadow: 6px 6px 24px 0px rgba(0,0,0,0.28);
 	-moz-box-shadow: 6px 6px 24px 0px rgba(0,0,0,0.28);
 	box-shadow: 6px 6px 24px 0px rgba(0,0,0,0.28);
@@ -258,8 +258,8 @@ body{
 	flex-direction: column;
 	align-items: center;
 	margin: 5px 0;
-	padding: 14px;
-	height: 70px;
+	padding: 10px;
+	min-height: 30px;
 }
 
 .project > .project__image{
@@ -279,15 +279,15 @@ body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	height: 50px;
+	height: 70px;
 }
 
-.project .project__stack{
-	border: 1px solid #007bff;
-	border-radius: 3px;
-	color: #007bff;
-	font-size: 1.2rem;
-	padding: 5px;
+.project__stack{
+	background-color: darkgray;
+	border: none;
+	border-radius: 50px;
+	font-weight: bold;
+	padding: 0.5rem;
 }
 
 .project > .project__links{
