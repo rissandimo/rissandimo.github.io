@@ -1,0 +1,101 @@
+a{
+    text-decoration: none;
+}
+
+
+/* Header */
+header > div > a{
+        border: 1px solid white;
+        color: white;
+        display: block;
+        margin: 3rem auto;
+        padding: 0.4rem;
+        text-decoration: none;
+        width: 8rem;
+}
+
+header > div > a:hover{
+    border: 1px solid #2c3e50;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+#about > .container > h2{
+    font-weight: 200;
+}
+
+header > div > h1{
+    font-weight: 200;
+}
+
+/* Projects */
+.project__links{
+    display: flex;
+    height: 55px;
+    justify-content: space-around;
+    margin: 0.5rem auto;
+    padding: 5px;
+    text-align: center;
+    width: 45%;
+}
+
+.project__links > .project__link{
+    border-radius: 10px;
+    color: black;
+    font-size: 1.2rem;
+    padding: 7px 15px;
+}
+
+.project__link.project__link--github{
+    background-color: grey;
+}
+
+.project__link.project__link--page{
+    background-color: #296CA8;
+}        
+
+.project__stacks{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: space-around;
+    margin: 3rem auto;
+	height: 70px;
+}
+
+.project__stack{
+	background-color: darkgray;
+	border: none;
+	border-radius: 50px;
+	font-weight: bold;
+	padding: 0.5rem;
+}
+
+/* Technology */
+
+.technology__experience{
+	background-color: #dedede;
+	margin-top: 4rem;
+	padding: 1.9rem;
+}
+
+.technology__experience > h1{
+    font-weight: 200;
+    text-align: center;
+}
+
+.technology__experience > .technology__container{
+	margin: 3rem auto;
+	max-width: 900px;
+}
+
+.technology__container > .technology__row{
+	display: flex;
+	margin-top: 3rem;
+	justify-content: space-around;
+}
+
+.technology__experience .tech__icon{
+	color: #243B55;
+	font-size: 3rem;
+}

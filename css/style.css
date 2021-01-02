@@ -11,6 +11,7 @@ a{
 }
 
 body{
+	background-color: #141E30;
 	font-size: 1.2rem;
 }
 
@@ -28,6 +29,18 @@ body{
 	margin: 0 auto;
 	padding: 40px;
 	max-width: 900px;
+}
+
+.about__me{
+	border-bottom: 2px solid blue;
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+}
+
+.about__me > h3{
+	font-weight: 200;
+	padding-bottom: 1rem;
 }
 
 .about a:visited{
@@ -164,6 +177,45 @@ body{
   .form-wrap button:hover {
 	  background-color: #37a08e;
   }
+
+header{
+	color: white;
+}														  /* Header */
+															  
+header > h1,
+header > h3,
+header > a{
+	font-weight: 200;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+header > a{
+	border: 1px solid white;
+	color: white;
+	display: block;
+	margin: 3rem auto;
+	padding: 0.4rem;
+	width: 8rem;
+}
+
+.social__links{
+	border: 1px solid green;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.social__links > .link{
+	border: 1px solid white;
+	border-radius: 50px;
+	padding: 0.5rem;
+}
+
+.social__links > .link > a{
+	color: blue;
+}
 
 														/* Navigation */
 .navbar{
@@ -376,8 +428,8 @@ body{
 }
 
 .technology__experience .tech__icon{
-	color: #296ca8;
-	font-size: 5rem;
+	color: #243B55;
+	font-size: 3rem;
 }
 
    /*Firefox  */
